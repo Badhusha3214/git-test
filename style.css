@@ -1,0 +1,33 @@
+*{
+  margin: 0%;
+}
+.logo{
+  text-decoration-color: blue;
+  color:blue;
+  /* margin-top: 1cm; */
+  
+  
+  
+}
+.active{
+  color: #fc036b;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.navigation{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: whitesmoke;
+}
+.nav-links{
+  display: flex;
+  align-items: center;
+}
+.nav-links li{
+  margin: 30px;
+}
