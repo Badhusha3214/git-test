@@ -1,19 +1,20 @@
 *{
-  margin: 0%;
+  margin: 1%;
+  background:black;
 }
+/* thing riten in the top */
 .logo{
   text-decoration-color: blue;
   color:blue;
-  /* margin-top: 1cm; */
-  
-  
-  
+  margin: top 10px;
+  margin-left: 530px; 
 }
 .active{
   color: #fc036b;
   text-decoration: underline;
   font-weight: bold;
 }
+.h1
 .navigation{
   position: absolute;
   top: 0;
@@ -24,10 +25,74 @@
   padding: 20px;
   color: whitesmoke;
 }
+
 .nav-links{
   display: flex;
   align-items: center;
+  /* background-color: aqua; */
+  margin-top: -25px;
+  margin-left: 299px;
 }
 .nav-links li{
   margin: 30px;
 }
+.fiels:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.field{
+  /* background-color: aqua;
+  color: azure;
+  border-radius: 25px;
+  width: 1000px; */
+  border: 1px solid rgb(128, 0, 0);
+  /* padding: 150px;
+  margin: 2px; */
+  float: left;
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 21px;
+  width: 355px;
+  color: azure;
+  height: 150px;
+}
+
+.field2{
+  float: left;
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 21px;
+  width: 355px;
+  color: azure;
+  height: 150px;
+  border: 1px solid rgb(128, 0, 0);
+}
+.field3{
+  float: left;
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 21px;
+  width: 350px;
+  color: azure;
+  height: 150px;
+  border: 1px solid rgb(128, 0, 0);
+}
+
+.line{
+  margin-top: -25px;
+}
+.hfield{
+  background-color:black ;
+  width: 500px;
+  padding-left: 170px;
+  margin-left: -29px;
+  /* background-position: 100px 5px; */
+}
+/* .try{
+  color: #332a85;
+  background-color:#fc036b;
+  padding: 20px;
+  border-radius: 20px;
+
+} */
